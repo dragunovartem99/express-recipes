@@ -3,10 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Express Recipes</title>
-		<link rel="stylesheet" href="/styles.css" />
+		<title>Document</title>
 	</head>
 	<body>
-		<h1>Express Recipes</h1>
+		<ul>
+			<% for (let item of items) { %> <%= item %> <% } %>
+		</ul>
 	</body>
 </html>
